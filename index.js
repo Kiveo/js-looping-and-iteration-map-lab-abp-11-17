@@ -23,8 +23,8 @@ function hydra(head1) {
 */
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array1, namestring) {
-    let newArray = map(array1, function (person) {
-    return Object.assign({}, person, { accessLevel: 'admin' });
+  let newArray = map(array1, function (person) {
+  return Object.assign({}, person, { accessLevel: 'admin' });
   } );
   
   let indexer = head1.indexOf(' '); //get index of space

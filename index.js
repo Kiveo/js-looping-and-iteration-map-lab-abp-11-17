@@ -23,6 +23,5 @@ function hydra(head1) {
 
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array2, namestring) {
-  return
+  return array2.map(hyrda(head1) )
 }
-

@@ -28,6 +28,5 @@ function nameToAttributes(array2, namestring) {
     let fname = head1.substr(0, indexer); //get first name
     let lname = head1.substr(indexer + 1); //get last name
     debugger;
-    head1.assign({}, {firstName: fname}, {lastName: lname});
   } );
 }

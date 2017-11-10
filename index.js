@@ -11,7 +11,11 @@ function lowerCaseDrivers(somearray) {
 }
 // callback for nameToAttributes
 function phoenix(thing2) {
-  
+  let index = someString.indexOf(" ");  // Gets the first index where a space occours
+  let id = someString.substr(0, index); // Gets the first part
+  let text = someString.substr(index + 1);  // Gets the text part
+  //give an attribute
+  Object.assign({}, thing2, {firstName: thing2.} )
 }
 
 // take "First Last" string collection and split into f:"first" l:"last"

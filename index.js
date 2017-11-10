@@ -9,6 +9,7 @@ function lowerCaseDrivers(somearray) {
     } ) ;
     return lowarray;
 }
+/*
 // callback for nameToAttributes
 function hydra(head1) {
   let index = head1.indexOf(" ");  // Get first index where a space occours
@@ -19,7 +20,7 @@ function hydra(head1) {
   //give an attribute
   head1.assign({}, head2, head3 );
 }
-
+*/
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array2, namestring) {
   return array2.map(function(head1) {

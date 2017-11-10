@@ -14,8 +14,11 @@ function hydra(head1) {
   let index = head1.indexOf(" ");  // Get first index where a space occours
   let fname = head1.substr(0, index); // Get first name
   let lname = head1.substr(index + 1);  // Get last name
+  let head2 = "firstName: " + fname;
+  let head3 = "lastName: " + lname; 
   //give an attribute
-  Object.assign({}, head1, {firstName: fname} )
+  debugger;
+  Object.assign({}, head1, head2, head3 )
 }
 
 // take "First Last" string collection and split into f:"first" l:"last"

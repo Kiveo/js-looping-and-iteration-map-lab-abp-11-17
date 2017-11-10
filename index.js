@@ -27,6 +27,8 @@ function nameToAttributes(array1, namestring) {
 *  `hometown` object attributes, not the strings `"DRIVER"` or `"HOMETOWN"`.
 */
 function attributesToPhrase(array2) {
-  let x = array2.name;
+  let x = "name";
+  let y = "hometown";
+  let z = x + " is from " + y;
   debugger;
 }

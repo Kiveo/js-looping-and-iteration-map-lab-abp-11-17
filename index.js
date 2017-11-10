@@ -16,7 +16,7 @@ function nameToAttributes(array1, namestring) {
     let indexer = head1.indexOf(' '); //get index of space
     let fname = head1.substr(0, indexer); //get first name
     let lname = head1.substr(indexer + 1); //get last name
-    return Object.assign({}, { firstName: fname }, {lastName: lname} );
+    return Object.assign({}, namestring, { firstName: fname }, {lastName: lname} );
   } );
   debugger;
   return newArray;

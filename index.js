@@ -7,3 +7,7 @@ function lowerCaseDrivers(somearray) {
     } ) ; //array.map(function(that)[changes to lowercase])
     return lowarray;
 }
+
+function nameToAttributes() {
+  
+}

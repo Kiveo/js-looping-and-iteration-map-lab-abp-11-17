@@ -10,10 +10,10 @@ function lowerCaseDrivers(somearray) {
     return lowarray;
 }
 // callback for nameToAttributes
-function phoenix(thing2) {
-  let index = thing2.indexOf(" ");  // Gets the first index where a space occours
-  let id = thing2.substr(0, index); // Gets the first part
-  let text = thing2.substr(index + 1);  // Gets the text part
+function hydra(head1) {
+  let index = head1.indexOf(" ");  // Gets the first index where a space occours
+  let id = head1.substr(0, index); // Gets the first part
+  let text = head1.substr(index + 1);  // Gets the text part
   //give an attribute
   Object.assign({}, thing2, {firstName: thing2.} )
 }

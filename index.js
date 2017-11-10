@@ -27,9 +27,10 @@ function nameToAttributes(array1, namestring) {
 *  `hometown` object attributes, not the strings `"DRIVER"` or `"HOMETOWN"`.
 */
 function attributesToPhrase(array2) {
-  let neoArray = array2.map(
-
-  );
+  let neoArray = array2.map(function(value) {
+    
+    
+  } ) ;
   debugger;
   return neoArray;
 }

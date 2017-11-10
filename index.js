@@ -24,9 +24,9 @@ function hydra(head1) {
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array1, namestring) {
   let newArray = map(array1, function (person) {
-    return Object.assign({}, person, { firstName: 'admin' });
+    return Object.assign({}, person, { firstName: fname }, {lastName: lname} );
   } );
-  
+
   let indexer = head1.indexOf(' '); //get index of space
   let fname = head1.substr(0, indexer); //get first name
   let lname = head1.substr(indexer + 1); //get last name

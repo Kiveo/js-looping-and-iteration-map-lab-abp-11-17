@@ -28,7 +28,8 @@ function nameToAttributes(array1, namestring) {
 */
 function attributesToPhrase(array2) {
   let neoArray = array2.map(
-    
+
   );
   debugger;
+  return neoArray;
 }

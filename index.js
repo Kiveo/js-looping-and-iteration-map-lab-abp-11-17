@@ -20,3 +20,7 @@ function nameToAttributes(array1, namestring) {
   } );
   return newArray;
 }
+
+function attributesToPhrase() {
+  
+}

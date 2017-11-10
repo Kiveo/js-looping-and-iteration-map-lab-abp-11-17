@@ -20,7 +20,12 @@ function nameToAttributes(array1, namestring) {
   } );
   return newArray;
 }
-
+/*
+*  this function takes an array of drivers as JavaScript objects and returns a string saying
+*  `"<NAME OF DRIVER> is from <HOMETOWN>"` for each JavaScript object in the array. 
+*  Note that between the `<` and `>` we are looking for the value stored in the `name` and
+*  `hometown` object attributes, not the strings `"DRIVER"` or `"HOMETOWN"`.
+*/
 function attributesToPhrase() {
-  
+
 }

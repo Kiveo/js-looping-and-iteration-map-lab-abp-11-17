@@ -25,4 +25,4 @@ function hydra(head1) {
 function nameToAttributes(array2, namestring) {
   return
 }
-hyrda();
+hydra();

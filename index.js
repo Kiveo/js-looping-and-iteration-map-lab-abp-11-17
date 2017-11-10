@@ -9,7 +9,12 @@ function lowerCaseDrivers(somearray) {
     } ) ;
     return lowarray;
 }
+// callback for nameToAttributes
+function phoenix(thing2) {
+  
+}
+
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array2, namestring) {
-
+  return 
 }

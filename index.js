@@ -15,7 +15,7 @@ function hydra(head1) {
   let fname = head1.substr(0, index); // Get first name
   let lname = head1.substr(index + 1);  // Get last name
   //give an attribute
-  Object.assign({}, thing2, {firstName: thing2.} )
+  Object.assign({}, head1, {firstName: fname} )
 }
 
 // take "First Last" string collection and split into f:"first" l:"last"

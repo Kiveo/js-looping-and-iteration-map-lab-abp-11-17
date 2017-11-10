@@ -28,7 +28,8 @@ function nameToAttributes(array1, namestring) {
 */
 function attributesToPhrase(array2) {
   let neoArray = array2.map(function(value) {
-
+    let namespace = ;
+    let placespace = ;
     return namespace + " is from " + placespace;
   } ) ;
   debugger;

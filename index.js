@@ -18,7 +18,7 @@ function hydra(head1) {
   let head3 = "lastName: " + lname;
   //give an attribute
   debugger;
-  Object.assign({}, head1, head2, head3 );
+  head1.assign({}, head1, head2, head3 );
 }
 
 // take "First Last" string collection and split into f:"first" l:"last"

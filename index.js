@@ -35,3 +35,4 @@ function attributesToPhrase(array2) {
   debugger;
   return neoArray;
 }
+// WOOT WEEK 1 DONEEEE!! 

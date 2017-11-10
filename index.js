@@ -17,7 +17,6 @@ function hydra(head1) {
   let head2 = "firstName: " + fname;
   let head3 = "lastName: " + lname;
   //give an attribute
-  debugger;
   head1.assign({}, head1, head2, head3 );
 }
 

@@ -9,7 +9,7 @@ function lowerCaseDrivers(somearray) {
     } ) ;
     return lowarray;
 }
-
+// take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes() {
 
 }

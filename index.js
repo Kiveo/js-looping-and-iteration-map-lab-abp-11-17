@@ -22,5 +22,9 @@ function hydra(head1) {
 
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array2, namestring) {
-  return array2.map(hydra() );
+  return array2.map(function(head1) {
+    let indexer = head1.indexOf(' '); //get index of space
+    let fname = head1.substr(0, indexer); //get first name
+    let lname = head1.substr(indexer + 1); //get last name 
+  } );
 }

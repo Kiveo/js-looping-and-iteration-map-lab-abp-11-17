@@ -12,8 +12,8 @@ function lowerCaseDrivers(somearray) {
 // callback for nameToAttributes
 function hydra(head1) {
   let index = head1.indexOf(" ");  // Get first index where a space occours
-  let id = head1.substr(0, index); // Get first name
-  let text = head1.substr(index + 1);  // Get last name
+  let fname = head1.substr(0, index); // Get first name
+  let lname = head1.substr(index + 1);  // Get last name
   //give an attribute
   Object.assign({}, thing2, {firstName: thing2.} )
 }

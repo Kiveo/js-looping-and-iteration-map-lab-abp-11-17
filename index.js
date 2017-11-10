@@ -29,6 +29,6 @@ function nameToAttributes(array1, namestring) {
 function attributesToPhrase(array2) {
   let x = "name";
   let y = "hometown";
-  let z = x + " is from " + y;
+  let z = array2[x] + " is from " + y;
   debugger;
 }

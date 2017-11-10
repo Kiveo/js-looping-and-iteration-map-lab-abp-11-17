@@ -27,6 +27,6 @@ function nameToAttributes(array2, namestring) {
     let indexer = head1.indexOf(' '); //get index of space
     let fname = head1.substr(0, indexer); //get first name
     let lname = head1.substr(indexer + 1); //get last name
-    debugger;
   } );
+  debugger;
 }

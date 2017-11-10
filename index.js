@@ -2,12 +2,13 @@
 
 function lowerCaseDrivers(somearray) {
     //create a new array while lowercasing its elements
+    //array.map(function(that)[changes to lowercase])
     const lowarray = somearray.map(function(thing) {
       return thing.toLowerCase();
-    } ) ; //array.map(function(that)[changes to lowercase])
+    } ) ; 
     return lowarray;
 }
 
 function nameToAttributes() {
-  
+
 }

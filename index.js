@@ -7,6 +7,6 @@ function makeLow(thing) {
 
 function lowerCaseDrivers(somearray) {
     //create a new array while lowercasing its elements
-    const lowarray = somearray.map();//array.map(function(that)[changes to lowercase])
+    const lowarray = somearray.map(makeLow);//array.map(function(that)[changes to lowercase])
     return lowarray;
 }

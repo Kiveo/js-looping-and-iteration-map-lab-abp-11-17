@@ -30,8 +30,8 @@ function attributesToPhrase(array2) {
   let neoArray = array2.map(function(value) {
     let namespace = "";
     let placespace = value.name;
+    debugger;
     return namespace + " is from " + placespace;
   } ) ;
-  debugger;
   return neoArray;
 }

@@ -24,7 +24,6 @@ function hydra(head1) {
 // take "First Last" string collection and split into f:"first" l:"last"
 function nameToAttributes(array1, namestring) {
   let newarray = array1.map();
-  } );
   debugger;
   return newarray;
 }

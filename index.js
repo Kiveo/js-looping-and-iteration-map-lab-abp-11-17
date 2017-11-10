@@ -18,6 +18,5 @@ function nameToAttributes(array1, namestring) {
     let lname = head1.substr(indexer + 1); //get last name
     return Object.assign({}, namestring, { firstName: fname }, {lastName: lname} );
   } );
-  debugger;
   return newArray;
 }

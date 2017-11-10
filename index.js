@@ -27,8 +27,8 @@ function nameToAttributes(array1, namestring) {
 *  `hometown` object attributes, not the strings `"DRIVER"` or `"HOMETOWN"`.
 */
 function attributesToPhrase(array2) {
-  let x = "name";
-  let y = "hometown";
-  let z = eval(array2.name) + " is from " + y;
+  let neoArray = array2.map(
+    
+  );
   debugger;
 }
